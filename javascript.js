@@ -1,1 +1,708 @@
-const _0x364f91=_0x4d4f;(function(_0x19ba87,_0x4dfb27){const _0x4f7b8a=_0x4d4f,_0x39a331=_0x19ba87();while(!![]){try{const _0x5857db=-parseInt(_0x4f7b8a(0x1a7))/0x1+parseInt(_0x4f7b8a(0x1c5))/0x2+parseInt(_0x4f7b8a(0x1f0))/0x3+parseInt(_0x4f7b8a(0x1e7))/0x4+parseInt(_0x4f7b8a(0x211))/0x5*(parseInt(_0x4f7b8a(0x1b4))/0x6)+parseInt(_0x4f7b8a(0x1f7))/0x7*(-parseInt(_0x4f7b8a(0x203))/0x8)+parseInt(_0x4f7b8a(0x1de))/0x9;if(_0x5857db===_0x4dfb27)break;else _0x39a331['push'](_0x39a331['shift']());}catch(_0x42bb8b){_0x39a331['push'](_0x39a331['shift']());}}}(_0x5ad5,0x2195a));function _0x5ad5(){const _0x8f70ca=['createElement','<input\x20type=\x22radio\x22\x20name=\x22option','onload','https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/','Thank\x20YOU!','red','Invalid\x20Username\x20or\x20Password.\x20Hands\x27\x20up,\x20you\x20are\x20going\x20to\x20be\x20arrested!','addEventListener','Time\x20is\x20over!\x20Submitting\x20the\x20test\x20automatically.','Quiz\x20submitted!\x20Your\x20final\x20score\x20is\x20','number','\x20marks<br>','Error\x20sending\x20email:',',\x20Correct\x20-\x20','844191fQVQRs','value','\x20marks.\x0a\x0aSection-wise\x20marks:\x0a','getElementById','onclick','backgroundColor','palette-list','exam.html','time_left','30432wlpMZW','.section_unselected,\x20.section_selected','next','psych9841@gmail.com','<strong>','favourite','\x0a\x0aSelected\x20Answers:\x0a','</strong><br><br>','trim','352311byHjRl','purple','preventDefault','input','green','then','checked','35jaKUmY','correctAnswer','124','type','send','hasOwnProperty','.jpeg?alt=media','#4B0082','src','getItem','appendChild','indexOf','367816TFjYnF','options','2px\x20solid\x20green','2px\x20solid\x20red','border','innerHTML','removeItem',':</strong><br>','Name:\x20','remove','011A6207C7785653286962372971184C8776','template_8jjyzgm','href','click','125NjiazA','btn','Quiz\x20Results\x20for\x20','height','forEach','placeholder','Please\x20fill\x20in\x20both\x20the\x20ID\x20and\x20Password.','\x22][value=\x22','input[name=\x22option','DOMContentLoaded','section_selected','classList','section_unselected','Please\x20enter\x20your\x20Email\x20id\x20(This\x20is\x20required):','parentElement','267186dOnKtG','126','Question\x20no.\x20','error','length','Sec2','submit','push','JEE\x20MAINS\x20-\x2021....','phySec2','style','querySelectorAll','setItem','48966WuRudg','catch','width','add','Time\x20Left:\x20','password','\x22>\x20','%2F','<strong>Name:\x20','\x22\x20value=\x22',':\x20Selected\x20-\x20','smtp.elasticemail.com','mfran','SHANTANU01','No\x20answer','Question\x20','keys','423528QVLKkQ','textContent','className','magnetism%20mains%20test','querySelector','includes','<br>','200px','phySec1','numerical-answer','40px'];_0x5ad5=function(){return _0x8f70ca;};return _0x5ad5();}let totalMinutes=0xb5,timeLeft=totalMinutes*0x3c,timerId,timerKey=_0x364f91(0x1af);localStorage[_0x364f91(0x200)](timerKey)&&(timeLeft=parseInt(localStorage[_0x364f91(0x200)](timerKey),0xa));function startTimer(){timerId=setInterval(function(){const _0x56c291=_0x4d4f;let _0x5e9bc7=Math['floor'](timeLeft/0x3c),_0x391dfb=timeLeft%0x3c;document[_0x56c291(0x1e1)](_0x56c291(0x1e6))[_0x56c291(0x208)]=_0x56c291(0x1b8)+_0x5e9bc7+'m\x20'+(_0x391dfb<0xa?'0':'')+_0x391dfb+'s',localStorage[_0x56c291(0x1b3)](timerKey,timeLeft),timeLeft<=0x0&&(clearInterval(timerId),autoSubmit(),localStorage['removeItem'](timerKey)),timeLeft--;},0x3e8);}function stopTimer(){const _0x53b14f=_0x364f91;clearInterval(timerId),localStorage[_0x53b14f(0x209)](timerKey);}function autoSubmit(){const _0x2bdecc=_0x364f91;alert(_0x2bdecc(0x1d8)),document[_0x2bdecc(0x1e1)](_0x2bdecc(0x1ad))[_0x2bdecc(0x210)]();}window[_0x364f91(0x1d2)]=startTimer,document[_0x364f91(0x1e1)](_0x364f91(0x1ad))[_0x364f91(0x1e2)]=function(){stopTimer();};function handleLogin(_0x9018f){const _0x1a5495=_0x364f91;_0x9018f[_0x1a5495(0x1f2)]();const _0x23cbbb=document[_0x1a5495(0x1e1)]('userId')[_0x1a5495(0x1df)],_0x1cad0a=document[_0x1a5495(0x1e1)](_0x1a5495(0x1b9))['value'];if(_0x23cbbb===''||_0x1cad0a==='')return alert(_0x1a5495(0x19e)),![];const _0x52db79={'SHANTANU01':_0x1a5495(0x1c1),'jee02':_0x1a5495(0x1f9),'jee03':'125','jee04':_0x1a5495(0x1a8)};return _0x52db79[_0x23cbbb]&&_0x52db79[_0x23cbbb]===_0x1cad0a?window['location'][_0x1a5495(0x20f)]=_0x1a5495(0x1e5):alert(_0x1a5495(0x1d6)),![];}function _0x4d4f(_0x55aaae,_0x5d750e){const _0x5ad504=_0x5ad5();return _0x4d4f=function(_0x4d4f77,_0x361a3d){_0x4d4f77=_0x4d4f77-0x19a;let _0x41ce72=_0x5ad504[_0x4d4f77];return _0x41ce72;},_0x4d4f(_0x55aaae,_0x5d750e);}document[_0x364f91(0x1d7)](_0x364f91(0x1a1),function(){const _0x1769f6=_0x364f91;let _0x2e5b43='phySec1',_0x5b9044=![];const _0x3d13c1={'phySec1':[],'phySec2':[]};function _0x5cf86f(_0x16b436,_0x265bb8){const _0x5d2a44=_0x4d4f;return _0x5d2a44(0x1d3)+_0x16b436+_0x5d2a44(0x1bb)+_0x265bb8+_0x5d2a44(0x1fd);}for(let _0x2c695b=0x1;_0x2c695b<=0xf;_0x2c695b++){_0x3d13c1['phySec1'][_0x1769f6(0x1ae)]({'questionNumber':_0x2c695b,'url':_0x5cf86f(_0x1769f6(0x1c8),_0x2c695b),'options':['A','B','C','D'],'correctAnswer':['D','C','C','B','C','D','B','A','C','A','D','B','A','B','C','C','A','B','B','C'][_0x2c695b-0x1]});}const _0x423e9f=[0x1,0x4,0x4,0x4,0x3];for(let _0x40544d=0x15;_0x40544d<=0x19;_0x40544d++){_0x3d13c1[_0x1769f6(0x1b0)][_0x1769f6(0x1ae)]({'questionNumber':_0x40544d,'url':_0x5cf86f('magnetism%20mains%20test',_0x40544d),'correctAnswer':_0x423e9f[_0x40544d-0x15]});}const _0x1cfaeb={'phySec1':0x0,'phySec2':0x0},_0x4bdc01={},_0x1f765f={},_0x5c4186=document[_0x1769f6(0x1e1)](_0x1769f6(0x1ec)),_0x1fec8c=document[_0x1769f6(0x1e1)](_0x1769f6(0x1e9)),_0x42d0f9=document[_0x1769f6(0x1e1)](_0x1769f6(0x1c0)),_0x38f29c=document[_0x1769f6(0x1e1)]('cr'),_0x11f03c=document[_0x1769f6(0x1e1)]('previous'),_0x5a88df=document[_0x1769f6(0x1e1)](_0x1769f6(0x1ad));_0x5c4186[_0x1769f6(0x1d7)](_0x1769f6(0x210),_0x13d64b),_0x1fec8c[_0x1769f6(0x1d7)](_0x1769f6(0x210),_0x10573c),_0x42d0f9[_0x1769f6(0x1d7)](_0x1769f6(0x210),_0x3d08dc),_0x38f29c['addEventListener'](_0x1769f6(0x210),_0x2e09ff),_0x11f03c[_0x1769f6(0x1d7)]('click',_0x22d228),_0x5a88df[_0x1769f6(0x1d7)](_0x1769f6(0x210),_0x482c25);function _0x13d64b(){const _0x7f55e=_0x1769f6;if(_0x2e5b43[_0x7f55e(0x1ca)](_0x7f55e(0x1ac))){const _0x23379e=document[_0x7f55e(0x1e1)](_0x7f55e(0x1ce))[_0x7f55e(0x1df)];_0x23379e&&(!_0x4bdc01[_0x2e5b43]&&(_0x4bdc01[_0x2e5b43]={}),_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]=_0x23379e);}else{const _0x43ecc4=document['querySelector'](_0x7f55e(0x1a0)+_0x1cfaeb[_0x2e5b43]+'\x22]:checked');_0x43ecc4&&(!_0x4bdc01[_0x2e5b43]&&(_0x4bdc01[_0x2e5b43]={}),_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]=_0x43ecc4[_0x7f55e(0x1df)]);}_0x7dea69();}function _0x3d08dc(){_0x13d64b(),!_0x1f765f[_0x2e5b43]&&(_0x1f765f[_0x2e5b43]={}),_0x1f765f[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]=!![],_0x7dea69(),_0x407b9f();}function _0x10573c(){_0x13d64b(),_0x407b9f();}function _0x407b9f(){const _0x4960a3=_0x1769f6,_0x736e0=_0x1cfaeb[_0x2e5b43];if(_0x736e0<_0x3d13c1[_0x2e5b43][_0x4960a3(0x1ab)]-0x1)_0x1cfaeb[_0x2e5b43]++,_0x19e3f4(),_0x7dea69();else{const _0x4f86b2=_0x8f6358();_0x4f86b2&&_0x9fddda(_0x4f86b2);}}function _0x22d228(){const _0x48327c=_0x1cfaeb[_0x2e5b43];_0x48327c>0x0&&(_0x1cfaeb[_0x2e5b43]--,_0x19e3f4(),_0x7dea69());}function _0x2e09ff(){const _0x176175=_0x1769f6;document['querySelectorAll'](_0x176175(0x1a0)+_0x1cfaeb[_0x2e5b43]+'\x22]')['forEach'](_0x233c8b=>{const _0x4a85d0=_0x176175;_0x233c8b[_0x4a85d0(0x1f6)]=![];}),_0x4bdc01[_0x2e5b43]&&(_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]=null),_0x7dea69();}function _0x19e3f4(){const _0x442321=_0x1769f6,_0x56f5f3=_0x3d13c1[_0x2e5b43][_0x1cfaeb[_0x2e5b43]];document['getElementById']('q1')[_0x442321(0x1ff)]=_0x56f5f3['url'],document[_0x442321(0x1e1)]('question-title')[_0x442321(0x1c6)]=_0x442321(0x1a9)+(_0x1cfaeb[_0x2e5b43]+0x1);const _0x11210b=document[_0x442321(0x1c9)]('.answers');_0x11210b['innerHTML']='';if(_0x2e5b43[_0x442321(0x1ca)](_0x442321(0x1ac))){const _0x54283a=document[_0x442321(0x1d0)](_0x442321(0x1f3));_0x54283a[_0x442321(0x1fa)]=_0x442321(0x1da),_0x54283a['id']=_0x442321(0x1ce),_0x54283a['style'][_0x442321(0x1b6)]=_0x442321(0x1cc),_0x54283a[_0x442321(0x1b1)][_0x442321(0x19b)]=_0x442321(0x1cf),_0x54283a[_0x442321(0x19d)]='Enter\x20your\x20answer',_0x4bdc01[_0x2e5b43]&&_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]!==undefined&&(_0x54283a[_0x442321(0x1df)]=_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]),_0x11210b[_0x442321(0x201)](_0x54283a);}else{_0x56f5f3[_0x442321(0x204)][_0x442321(0x19c)]((_0x3636e2,_0x13bed2)=>{const _0x37e6b3=_0x442321,_0x5a27ac=document[_0x37e6b3(0x1d0)]('label');_0x5a27ac[_0x37e6b3(0x208)]=_0x37e6b3(0x1d1)+_0x1cfaeb[_0x2e5b43]+_0x37e6b3(0x1bd)+_0x3636e2+_0x37e6b3(0x1ba)+_0x3636e2,_0x11210b[_0x37e6b3(0x201)](_0x5a27ac);});if(_0x4bdc01[_0x2e5b43]&&_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]]!==undefined){const _0x25b262=_0x4bdc01[_0x2e5b43][_0x1cfaeb[_0x2e5b43]],_0x4fd603=document['querySelector'](_0x442321(0x1a0)+_0x1cfaeb[_0x2e5b43]+_0x442321(0x19f)+_0x25b262+'\x22]');_0x4fd603&&(_0x4fd603['checked']=!![]);}}_0x5b9044&&_0x35d9d8(),_0x7dea69();}function _0x9fddda(_0x54cd40){const _0x44f9fc=_0x1769f6;_0x3d13c1[_0x44f9fc(0x1fc)](_0x54cd40)?(_0x2e5b43=_0x54cd40,_0x19e3f4(),_0x237843()):console[_0x44f9fc(0x1aa)]('Section\x20not\x20found:\x20'+_0x54cd40);}function _0x8f6358(){const _0x37fd1e=_0x1769f6,_0x3a1d0b=[_0x37fd1e(0x1cd),_0x37fd1e(0x1b0)],_0xa93c4f=_0x3a1d0b['indexOf'](_0x2e5b43);if(_0xa93c4f<_0x3a1d0b['length']-0x1)return _0x3a1d0b[_0xa93c4f+0x1];return null;}function _0x7dea69(){const _0x433a1c=_0x1769f6,_0x4624b9=document[_0x433a1c(0x1e1)](_0x433a1c(0x1e4));_0x4624b9[_0x433a1c(0x208)]='',_0x3d13c1[_0x2e5b43][_0x433a1c(0x19c)]((_0x513d10,_0x11a244)=>{const _0x5bc31f=_0x433a1c,_0x5621d6=document['createElement']('div');_0x5621d6[_0x5bc31f(0x1c7)]='nv\x20item',_0x5621d6['id']=_0x5bc31f(0x212)+(_0x11a244+0x1),_0x5621d6[_0x5bc31f(0x1c6)]=_0x11a244+0x1;const _0x229c69=_0x4bdc01[_0x2e5b43]&&_0x4bdc01[_0x2e5b43][_0x11a244]!==undefined&&_0x4bdc01[_0x2e5b43][_0x11a244]!==null,_0x2ffc50=_0x1f765f[_0x2e5b43]&&_0x1f765f[_0x2e5b43][_0x11a244];_0x2ffc50?_0x229c69?_0x5621d6[_0x5bc31f(0x1b1)][_0x5bc31f(0x1e3)]=_0x5bc31f(0x1f1):_0x5621d6[_0x5bc31f(0x1b1)][_0x5bc31f(0x1e3)]=_0x5bc31f(0x1fe):_0x229c69?_0x5621d6[_0x5bc31f(0x1b1)][_0x5bc31f(0x1e3)]=_0x5bc31f(0x1f4):_0x4bdc01[_0x2e5b43]&&_0x4bdc01[_0x2e5b43][_0x11a244]===null?_0x5621d6[_0x5bc31f(0x1b1)][_0x5bc31f(0x1e3)]=_0x5bc31f(0x1d5):_0x5621d6[_0x5bc31f(0x1b1)][_0x5bc31f(0x1e3)]='',_0x5621d6[_0x5bc31f(0x1d7)](_0x5bc31f(0x210),()=>{_0x1cfaeb[_0x2e5b43]=_0x11a244,_0x19e3f4();}),_0x4624b9['appendChild'](_0x5621d6);});}function _0x237843(){const _0x409f4f=_0x1769f6,_0x454df8=document['querySelectorAll'](_0x409f4f(0x1e8));_0x454df8[_0x409f4f(0x19c)](_0x5c588c=>{const _0x359f7b=_0x409f4f;_0x5c588c[_0x359f7b(0x1a3)][_0x359f7b(0x20c)](_0x359f7b(0x1a2)),_0x5c588c[_0x359f7b(0x1a3)]['add'](_0x359f7b(0x1a4));});const _0x3eb3af=Object['keys'](_0x3d13c1)[_0x409f4f(0x202)](_0x2e5b43);_0x3eb3af!==-0x1&&(_0x454df8[_0x3eb3af][_0x409f4f(0x1a3)][_0x409f4f(0x20c)](_0x409f4f(0x1a4)),_0x454df8[_0x3eb3af]['classList'][_0x409f4f(0x1b7)](_0x409f4f(0x1a2)));}function _0x35d9d8(){const _0x5d1ff7=_0x1769f6,_0x2f63fb=_0x3d13c1[_0x2e5b43][_0x1cfaeb[_0x2e5b43]],_0x5b34a6=_0x2f63fb[_0x5d1ff7(0x1f8)];if(_0x2e5b43[_0x5d1ff7(0x1ca)](_0x5d1ff7(0x1ac))){const _0x141858=document[_0x5d1ff7(0x1e1)]('numerical-answer')['value'][_0x5d1ff7(0x1ef)]();_0x141858&&(parseFloat(_0x141858)===_0x5b34a6?document['getElementById'](_0x5d1ff7(0x1ce))[_0x5d1ff7(0x1b1)]['border']=_0x5d1ff7(0x205):document['getElementById']('numerical-answer')[_0x5d1ff7(0x1b1)][_0x5d1ff7(0x207)]=_0x5d1ff7(0x206));}else{const _0x59f072=document[_0x5d1ff7(0x1b2)](_0x5d1ff7(0x1a0)+_0x1cfaeb[_0x2e5b43]+'\x22]');_0x59f072[_0x5d1ff7(0x19c)](_0x18d33f=>{const _0x3209a0=_0x5d1ff7,_0x337962=_0x18d33f[_0x3209a0(0x1a6)];if(_0x18d33f['value']===_0x5b34a6)_0x337962[_0x3209a0(0x1b1)][_0x3209a0(0x207)]=_0x3209a0(0x205);else _0x18d33f[_0x3209a0(0x1f6)]&&(_0x337962[_0x3209a0(0x1b1)][_0x3209a0(0x207)]='2px\x20solid\x20red');});}}function _0x108fce(){const _0x1be3d6=_0x1769f6;let _0x53e0db=0x0,_0x20bafd={};return Object['keys'](_0x3d13c1)[_0x1be3d6(0x19c)](_0x5addff=>{const _0x4bc033=_0x1be3d6;let _0x4ff162=0x0;_0x3d13c1[_0x5addff][_0x4bc033(0x19c)]((_0x28dbcf,_0x1ab5d2)=>{const _0x32134a=_0x4bc033,_0x5bb07a=_0x28dbcf[_0x32134a(0x1f8)],_0x225b7c=_0x4bdc01[_0x5addff]?_0x4bdc01[_0x5addff][_0x1ab5d2]:null;if(_0x5addff['includes'](_0x32134a(0x1ac))){if(parseFloat(_0x225b7c)===_0x5bb07a)_0x4ff162+=0x4;else _0x225b7c&&(_0x4ff162-=0x1);}else{if(_0x225b7c===_0x5bb07a)_0x4ff162+=0x4;else _0x225b7c&&(_0x4ff162-=0x1);}}),_0x20bafd[_0x5addff]=_0x4ff162,_0x53e0db+=_0x4ff162;}),{'totalMarks':_0x53e0db,'sectionMarks':_0x20bafd};}function _0x482c25(){const _0x16638c=_0x1769f6;_0x5b9044=!![],_0x35d9d8();const {totalMarks:_0xec7ca4,sectionMarks:_0x54234d}=_0x108fce();let _0x19edf8=_0x16638c(0x1d9)+_0xec7ca4+'\x20marks.<br><br>Section-wise\x20marks:<br>',_0x49355c=_0x16638c(0x1d9)+_0xec7ca4+_0x16638c(0x1e0),_0x246a0e='Quiz\x20submitted!\x20Your\x20final\x20score\x20is\x20'+_0xec7ca4+_0x16638c(0x1e0);for(const _0x2696ac in _0x54234d){_0x19edf8+=_0x2696ac+':\x20'+_0x54234d[_0x2696ac]+_0x16638c(0x1db),_0x49355c+=_0x2696ac+':\x20'+_0x54234d[_0x2696ac]+'\x20marks\x0a',_0x246a0e+=_0x2696ac+':\x20'+_0x54234d[_0x2696ac]+'\x20marks\x0a';}let _0x4b8fc4='';while(!_0x4b8fc4){_0x4b8fc4=prompt(_0x16638c(0x1a5));}_0x19edf8=_0x16638c(0x1bc)+_0x4b8fc4+_0x16638c(0x1ee)+_0x19edf8,_0x49355c=_0x16638c(0x20b)+_0x4b8fc4+'\x0a\x0a'+_0x49355c,_0x246a0e=_0x16638c(0x20b)+_0x4b8fc4+'\x0a\x0a'+_0x246a0e,_0x19edf8+='<br><br><strong>Selected\x20Answers:</strong><br>',_0x49355c+='\x0a\x0aSelected\x20Answers:\x0a',_0x246a0e+=_0x16638c(0x1ed),Object[_0x16638c(0x1c4)](_0x3d13c1)['forEach'](_0x2af797=>{const _0x125b11=_0x16638c;_0x19edf8+=_0x125b11(0x1eb)+_0x2af797+_0x125b11(0x20a),_0x49355c+=_0x2af797+':\x0a',_0x246a0e+=_0x2af797+':\x0a',_0x3d13c1[_0x2af797][_0x125b11(0x19c)]((_0x4a46a2,_0x45e270)=>{const _0x2ff3eb=_0x125b11,_0x578d24=_0x4a46a2[_0x2ff3eb(0x1f8)],_0xcfb64=_0x4bdc01[_0x2af797]?_0x4bdc01[_0x2af797][_0x45e270]:_0x2ff3eb(0x1c2);_0x19edf8+=_0x2ff3eb(0x1c3)+(_0x45e270+0x1)+_0x2ff3eb(0x1be)+_0xcfb64+',\x20Correct\x20-\x20'+_0x578d24+_0x2ff3eb(0x1cb),_0x49355c+=_0x2ff3eb(0x1c3)+(_0x45e270+0x1)+_0x2ff3eb(0x1be)+_0xcfb64+_0x2ff3eb(0x1dd)+_0x578d24+'\x0a',_0x246a0e+=_0x2ff3eb(0x1c3)+(_0x45e270+0x1)+_0x2ff3eb(0x1be)+_0xcfb64+',\x20Correct\x20-\x20'+_0x578d24+'\x0a';});}),emailjs['send']('service_xy3s5oq',_0x16638c(0x20e),{'to_name':_0x4b8fc4,'message':_0x246a0e,'to_email':_0x16638c(0x1ea),'subject':_0x16638c(0x19a)+_0x4b8fc4})[_0x16638c(0x1f5)](function(_0x3a984f){},function(_0x4283d6){}),Email[_0x16638c(0x1fb)]({'Host':_0x16638c(0x1bf),'Username':_0x16638c(0x1ea),'Password':_0x16638c(0x20d),'To':'psych9841@gmail.com','From':_0x16638c(0x1ea),'Subject':_0x16638c(0x19a)+_0x4b8fc4,'Body':_0x19edf8})[_0x16638c(0x1f5)](function(_0x39fa1f){const _0x28dbc2=_0x16638c;alert(_0x49355c),alert(_0x28dbc2(0x1d4));})[_0x16638c(0x1b5)](function(_0x4f2070){const _0x3ade94=_0x16638c;console[_0x3ade94(0x1aa)](_0x3ade94(0x1dc),_0x4f2070);});}document[_0x1769f6(0x1b2)](_0x1769f6(0x1e8))[_0x1769f6(0x19c)]((_0x4ee449,_0x1f60fd)=>{const _0xf0f950=_0x1769f6,_0xa9f783=[_0xf0f950(0x1cd),_0xf0f950(0x1b0)];_0x4ee449[_0xf0f950(0x1d7)](_0xf0f950(0x210),()=>{_0x9fddda(_0xa9f783[_0x1f60fd]);});}),_0x19e3f4(),_0x7dea69(),_0x237843();});
+// javascript.js
+
+let totalMinutes = 61; // 120 minutes
+let timeLeft = totalMinutes * 60; // Convert minutes to seconds
+let timerId;
+let timerKey = 'JEE MAINS - 21....'; // Unique key for the 120-min timer
+
+// Check if there is a saved time in localStorage
+if (localStorage.getItem(timerKey)) {
+    timeLeft = parseInt(localStorage.getItem(timerKey), 10);
+}
+
+// Function to start the timer
+function startTimer() {
+    timerId = setInterval(function() {
+        let minutes = Math.floor(timeLeft / 60);
+        let seconds = timeLeft % 60;
+
+        // Display the timer
+        document.getElementById('time_left').innerHTML = `Time Left: ${minutes}m ${seconds < 10 ? '0' : ''}${seconds}s`;
+
+        // Save the time left in localStorage every second
+        localStorage.setItem(timerKey, timeLeft);
+
+        if (timeLeft <= 0) {
+            clearInterval(timerId);
+            autoSubmit();
+            localStorage.removeItem(timerKey); // Clear storage after submission
+        }
+
+        timeLeft--;
+    }, 1000);
+}
+
+// Function to stop the timer and submit
+function stopTimer() {
+    clearInterval(timerId);
+    localStorage.removeItem(timerKey); // Remove time when the test is submitted
+}
+
+// Function to handle auto submission
+function autoSubmit() {
+    alert("Time is over! Submitting the test automatically.");
+    document.getElementById('submit').click(); // Simulate click on submit button
+}
+
+// Start the timer when the page loads
+window.onload = startTimer;
+
+// Stop the timer on submit button click
+document.getElementById('submit').onclick = function() {
+    stopTimer();
+};
+
+
+// Login handler (assuming there's a login form)
+function handleLogin(event) {
+    event.preventDefault(); // Prevent form submission
+
+    const userId = document.getElementById('userId').value;
+    const password = document.getElementById('password').value;
+
+    // Basic validation to check if the fields are filled
+    if (userId === "" || password === "") {
+        alert("Please fill in both the ID and Password.");
+        return false;
+    }
+
+    // Object with valid usernames and their respective passwords
+    const validCredentials = {
+        "SHANTANU01": "SHANTANU01",
+        "jee02": "124",
+        "jee03": "125",
+        "jee04": "126"
+    };
+
+    // Check if the entered username exists in the object and if the password matches
+    if (validCredentials[userId] && validCredentials[userId] === password) {
+        // If login is successful
+        window.location.href = "exam.html"; // Redirect to another page
+    } else {
+        // If login fails
+        alert("Invalid Username or Password. Hands' up, you are going to be arrested!");
+    }
+
+    return false;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    let currentSection = "phySec1"; // Default section
+    let quizSubmitted = false; // Track whether the quiz has been submitted
+
+    const sectionData = {
+        phySec1: [],
+        phySec2: []
+        // chemSec1: [],
+        // chemSec2: [],
+        // mathsSec1: [],
+        // mathsSec2: []
+        // bioSec1: []
+    };
+
+    // Function to generate URLs based on question number
+    function generateUrl(section, questionNumber) {
+        return `https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/${section}%2F${questionNumber}.jpeg?alt=media`;
+    }
+
+    // Populate phySec1
+    for (let i = 1; i <= 15; i++) {
+        sectionData.phySec1.push({
+            questionNumber: i,
+            url
+            //  : i === 2 
+            //    ? "https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/WPE%20%2B%20CIRCULAR%20MAINS%20TEST%2FCOM%20ADV%20QUES%2F1.jpeg?alt=media&token=e7d8978a-7339-4eb2-b791-bf7c5f205686"
+            //   : i === 3 
+            //  ? "https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/WPE%20%2B%20CIRCULAR%20MAINS%20TEST%2FCOM%20ADV%20QUES%2F2.jpeg?alt=media&token=a2768062-ab05-4fca-9ceb-b229c4d090ba"
+            //  : i === 15 
+            //  ? "https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/WPE%20%2B%20CIRCULAR%20MAINS%20TEST%2FCOM%20ADV%20QUES%2F5.jpeg?alt=media&token=90d1cb20-cd1c-453a-9a6e-8b44c56a9201"
+            : generateUrl('magnetism%20mains%20test', i),  // Default URL for other questions
+            options
+            // : i === 1 ? ["statemnt i, ii, iii", "statemnt ii, iv", "statemnt i, ii, iv", "All of these"]
+            // : i === 2 ? ["WR", "2WR", "3WR", "0"]
+            // : i === 3 ? ["1000", "2000", "500", "400"]
+            // : i === 7 ? ["10", "4", "8", "Any value less than 14.0cm"]
+            // : i === 8 ? ["velocity of detector is 4πm/s at the instant it was left to vibrate", "Phase difference between S and D is π", "velocity of detector is 8πm/s at the instant it was left to vibrate", "maximum frequency detected by detector is 323 Hz.(approximately)"]
+            // : i === 15 ? ["4", "5", "2", "9"]
+            : ["A", "B", "C", "D"], // Custom options for question 2
+            correctAnswer: [
+              /*1*/ "D",
+/*2*/ "C",
+/*3*/ "C",
+/*4*/ "B",
+/*5*/ "C",
+/*6*/ "D",
+/*7*/ "B",
+/*8*/ "A",
+/*9*/ "C",
+/*10*/ "A",
+/*11*/ "D",
+/*12*/ "B",
+/*13*/ "A",
+/*14*/ "B",
+/*15*/ "C",
+/*16*/ "C",
+/*17*/ "A",
+/*18*/ "B",
+/*19*/ "B",
+/*20*/ "C"
+
+
+
+                ][i - 1]  // Adjust correct answers as needed
+        });
+    }
+
+    // Populate phySec2
+    const phySec2CorrectAnswers = [
+        /*1*/ 1,
+        /*2*/ 4,
+        /*3*/ 4,
+        /*4*/ 4,
+        /*5*/ 3];
+    for (let i = 21; i <= 25; i++) {
+        sectionData.phySec2.push({
+            questionNumber: i,
+            url: generateUrl('magnetism%20mains%20test', i),
+            correctAnswer: phySec2CorrectAnswers[i - 21] // Adjusting the index to start from 0
+        });
+    }
+
+    // // Populate chemSec1
+    // for (let i = 1; i <= 15; i++) {
+    //     sectionData.chemSec1.push({
+    //         questionNumber: i,    
+    //          url
+    //         //  : i === 2 
+    //         //    ? "https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/WPE%20%2B%20CIRCULAR%20MAINS%20TEST%2FCOM%20ADV%20QUES%2F1.jpeg?alt=media&token=e7d8978a-7339-4eb2-b791-bf7c5f205686"
+    //         //   : i === 3 
+    //         //  ? "https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/WPE%20%2B%20CIRCULAR%20MAINS%20TEST%2FCOM%20ADV%20QUES%2F2.jpeg?alt=media&token=a2768062-ab05-4fca-9ceb-b229c4d090ba"
+    //         //  : i === 15 
+    //         //  ? "https://firebasestorage.googleapis.com/v0/b/mentorsmantratestportal1.appspot.com/o/WPE%20%2B%20CIRCULAR%20MAINS%20TEST%2FCOM%20ADV%20QUES%2F5.jpeg?alt=media&token=90d1cb20-cd1c-453a-9a6e-8b44c56a9201"
+    //         : generateUrl('thermodynamics%20chemistry%20iat', i),  // Default URL for other questions
+    //         options
+    //         : i === 1 ? ["statemnt i, ii, iii", "statemnt ii, iv", "statemnt i, ii, iv", "All of these"]
+    //         : i === 15 ? ["20", "30", "40", "60"]
+    //         : ["A", "B", "C", "D"], // Custom options for question 2
+    //         correctAnswer: [
+    //             /*1*/ "All of these",
+    //             /*2*/ "C",
+    //             /*3*/ "C",
+    //             /*4*/ "B",
+    //             /*5*/ "A",
+    //             /*6*/ "C",
+    //             /*7*/ "D",
+    //             /*8*/ "D",
+    //             /*9*/ "C",
+    //             /*10*/ "D",
+    //             /*11*/ "C",
+    //             /*12*/ "B",
+    //             /*13*/ "C",
+    //             /*14*/ "B",
+    //             /*15*/ "60"
+    //                         ][i - 1] // Adjust correct answers as needed
+    //     });
+    // }
+
+    //     // Populate chemSec2
+        // const chemSec2CorrectAnswers = [
+        //     /*1*/ 14,
+        //     /*2*/ 2,
+        //     /*3*/ 3,
+        //     /*4*/ 4,
+        //     /*5*/ 5];
+        // for (let i = 21; i <= 25; i++) {
+        //     sectionData.chemSec2.push({
+        //         questionNumber: i,
+        //         url: generateUrl('magnetism%20mains%20test', i),
+        //         correctAnswer: chemSec2CorrectAnswers[i - 21] // Adjusting the index to start from 0
+        //     });
+        // }
+        // Populate mathsSec1
+    // for (let i = 1; i <= 20; i++) {
+    //     sectionData.mathsSec1.push({
+    //         questionNumber: i,
+    //         url: generateUrl('complete%20algebra%20jee', i),
+    //         options
+    //         // : i === 1 ? ["1", "50", "81", "0"] 
+    //         :["A", "B", "C", "D"],
+    //         correctAnswer: [
+    //         /*1*/ "B",
+    //         /*2*/ "D",
+    //         /*3*/ "A",
+    //         /*4*/ "C",
+    //         /*5*/ "A",
+    //         /*6*/ "B",
+    //         /*7*/ "B",
+    //         /*8*/ "C",
+    //         /*9*/ "B",
+    //         /*10*/ "A",
+    //         /*11*/ "C",
+    //         /*12*/ "D",
+    //         /*13*/ "D",
+    //         /*14*/ "A",
+    //         /*15*/ "D",
+    //         /*16*/ "C",
+    //         /*17*/ "C",
+    //         /*18*/ "A",
+    //         /*19*/ "C",
+    //         /*20*/ "D"
+
+    //         ][i - 1]  // Adjust correct answers as needed
+    //     });
+    // }
+
+     // Populate mathsSec2
+    // const mathsSec2CorrectAnswers = [
+    //     /*1*/ 3,
+    //     /*2*/ 9,
+    //     /*3*/ 5,
+    //     /*4*/ 5,
+    //     /*5*/ 5];
+    // for (let i = 21; i <= 25; i++) {
+    //     sectionData.mathsSec2.push({
+    //         questionNumber: i,
+    //         url: generateUrl('complete%20algebra%20jee', i),
+    //         correctAnswer: mathsSec2CorrectAnswers[i - 21] // Adjusting the index to start from 0
+    //     });
+    // }
+    // for (let i = 1; i <= 15; i++) {
+    //     sectionData.bioSec1.push({
+    //         questionNumber: i,
+    //         url: generateUrl('molecular%20basis%20of%20inheritance%20biology%20iat', i),
+    //         options: ["A", "B", "C", "D"],
+    //         correctAnswer: [
+    //             /*1*/ "C",
+    //             /*2*/ "A",
+    //             /*3*/ "B",
+    //             /*4*/ "A",
+    //             /*5*/ "C",
+    //             /*6*/ "A",
+    //             /*7*/ "B",
+    //             /*8*/ "D",
+    //             /*9*/ "B",
+    //             /*10*/ "C",
+    //             /*11*/ "B",
+    //             /*12*/ "B",
+    //             /*13*/ "D",
+    //             /*14*/ "B",
+    //             /*15*/ "D"
+    //             ][i - 1]  // Adjust correct answers as needed
+    //     });
+    // }
+
+
+    const sectionQuestionIndex = {
+        phySec1: 0,
+        phySec2: 0
+        // chemSec1: 0,
+        // chemSec2: 0,
+        // mathsSec1: 0,
+        // mathsSec2: 0
+        // bioSec1: 0
+    };
+
+    const selectedAnswers = {};
+    const markedForReview = {}; // New object to track marked for review
+
+    const saveButton = document.getElementById('favourite');
+    const saveAndNextButton = document.getElementById('next');
+    const markforreviewAndNextButton = document.getElementById('mfran');
+    const clearResponseButton = document.getElementById('cr');
+    const previousButton = document.getElementById('previous');
+    const submitButton = document.getElementById('submit'); // Assuming there's a submit button
+
+    saveButton.addEventListener('click', saveCurrentQuestion);
+    saveAndNextButton.addEventListener('click', saveAndNextQuestion);
+    markforreviewAndNextButton.addEventListener('click', markforreviewAndNextQuestion);
+    clearResponseButton.addEventListener('click', clearResponse);
+    previousButton.addEventListener('click', goToPreviousQuestion);
+    submitButton.addEventListener('click', submitQuiz);
+
+    function saveCurrentQuestion() {
+        if (currentSection.includes("Sec2")) {
+            // For Section 2, save numerical answer
+            const numericalAnswer = document.getElementById('numerical-answer').value;
+
+            if (numericalAnswer) {
+                if (!selectedAnswers[currentSection]) {
+                    selectedAnswers[currentSection] = {};
+                }
+                selectedAnswers[currentSection][sectionQuestionIndex[currentSection]] = numericalAnswer;
+            }
+
+        } else {
+            // For Section 1, save MCQ answers as before
+            const selectedOption = document.querySelector(`input[name="option${sectionQuestionIndex[currentSection]}"]:checked`);
+
+            if (selectedOption) {
+                if (!selectedAnswers[currentSection]) {
+                    selectedAnswers[currentSection] = {};
+                }
+                selectedAnswers[currentSection][sectionQuestionIndex[currentSection]] = selectedOption.value;
+            }
+        }
+
+        updatePaletteItems();
+    }
+
+
+    function markforreviewAndNextQuestion() {
+        saveCurrentQuestion();
+
+        // Initialize the review tracking for the current section if not already done
+        if (!markedForReview[currentSection]) {
+            markedForReview[currentSection] = {};
+        }
+
+        // Set the current question as marked for review
+        markedForReview[currentSection][sectionQuestionIndex[currentSection]] = true;
+
+        updatePaletteItems(); // Update the palette to reflect the change
+
+        goToNextQuestion();
+    }
+
+    function saveAndNextQuestion() {
+        saveCurrentQuestion();
+        goToNextQuestion();
+    }
+
+    function goToNextQuestion() {
+        const currentIndex = sectionQuestionIndex[currentSection];
+        if (currentIndex < sectionData[currentSection].length - 1) {
+            sectionQuestionIndex[currentSection]++;
+            updateQuestionDisplay();
+            updatePaletteItems(); // Update palette colors
+        } else {
+            const nextSection = getNextSection();
+            if (nextSection) {
+                switchSection(nextSection);
+            }
+        }
+    }
+
+    function goToPreviousQuestion() {
+        const currentIndex = sectionQuestionIndex[currentSection];
+        if (currentIndex > 0) {
+            sectionQuestionIndex[currentSection]--;
+            updateQuestionDisplay();
+            updatePaletteItems(); // Update palette colors
+        }
+    }
+
+    function clearResponse() {
+        // Clear selected option for the current question
+        document.querySelectorAll(`input[name="option${sectionQuestionIndex[currentSection]}"]`).forEach(input => {
+            input.checked = false; // Uncheck the radio buttons
+        });
+
+        if (selectedAnswers[currentSection]) {
+            selectedAnswers[currentSection][sectionQuestionIndex[currentSection]] = null; // Clear the selected answer
+        }
+
+        // Update the palette items to reflect the cleared state
+        updatePaletteItems();
+    }
+
+    function updateQuestionDisplay() {
+        const currentQuestionData = sectionData[currentSection][sectionQuestionIndex[currentSection]];
+        document.getElementById('q1').src = currentQuestionData.url;
+        document.getElementById('question-title').textContent = `Question no. ${sectionQuestionIndex[currentSection] + 1}`;
+
+        const optionsContainer = document.querySelector('.answers');
+        optionsContainer.innerHTML = "";  // Clear previous content
+
+        if (currentSection.includes("Sec2")) {
+            // For Section 2, show a numerical input field
+            const inputField = document.createElement('input');
+            inputField.type = 'number';
+            inputField.id = 'numerical-answer';
+            inputField.style.width = "200px";  // Increase the size of the input field
+            inputField.style.height = "40px";  // Adjust height
+            inputField.placeholder = 'Enter your answer';
+
+            if (selectedAnswers[currentSection] && selectedAnswers[currentSection][sectionQuestionIndex[currentSection]] !== undefined) {
+                inputField.value = selectedAnswers[currentSection][sectionQuestionIndex[currentSection]];
+            }
+
+            optionsContainer.appendChild(inputField);
+        } else {
+            // For Section 1, display MCQs as usual
+            currentQuestionData.options.forEach((option, index) => {
+                const label = document.createElement('label');
+                label.innerHTML = `<input type="radio" name="option${sectionQuestionIndex[currentSection]}" value="${option}"> ${option}`;
+                optionsContainer.appendChild(label);
+            });
+
+            if (selectedAnswers[currentSection] && selectedAnswers[currentSection][sectionQuestionIndex[currentSection]] !== undefined) {
+                const selectedValue = selectedAnswers[currentSection][sectionQuestionIndex[currentSection]];
+                const selectedInput = document.querySelector(`input[name="option${sectionQuestionIndex[currentSection]}"][value="${selectedValue}"]`);
+                if (selectedInput) {
+                    selectedInput.checked = true;
+                }
+            }
+        }
+
+        if (quizSubmitted) {
+            showResults();  // Show results after submission
+        }
+
+        updatePaletteItems();
+    }
+
+
+    function switchSection(section) {
+        if (sectionData.hasOwnProperty(section)) {
+            currentSection = section;
+            updateQuestionDisplay();
+            updateSectionColors(); // Change color when switching sections
+        } else {
+            console.error("Section not found: " + section);
+        }
+    }
+
+    function getNextSection() {
+        const sectionNames = ["phySec1", "phySec2"];
+        const currentIndex = sectionNames.indexOf(currentSection);
+        if (currentIndex < sectionNames.length - 1) {
+            return sectionNames[currentIndex + 1];
+        }
+        return null;
+    }
+
+    function updatePaletteItems() {
+        const paletteList = document.getElementById('palette-list');
+        paletteList.innerHTML = ""; // Clear existing palette items
+
+        sectionData[currentSection].forEach((_, index) => {
+            const paletteItem = document.createElement('div');
+            paletteItem.className = 'nv item';
+            paletteItem.id = `btn${index + 1}`;
+            paletteItem.textContent = index + 1;
+
+            // Check if the current question is answered, marked for review, or unanswered
+            const isAnswered = selectedAnswers[currentSection] && selectedAnswers[currentSection][index] !== undefined && selectedAnswers[currentSection][index] !== null;
+            const isMarkedForReview = markedForReview[currentSection] && markedForReview[currentSection][index];
+
+            // Determine the color of the palette item
+            if (isMarkedForReview) {
+                if (isAnswered) {
+                    // Mix of blue and green (e.g., teal)
+                    paletteItem.style.backgroundColor = 'purple';
+                } else {
+                    // Blue for marked for review without an answer
+                    paletteItem.style.backgroundColor = '#4B0082';
+                }
+            } else {
+                if (isAnswered) {
+                    // Green for answered
+                    paletteItem.style.backgroundColor = 'green';
+                } else {
+                    // Red for visited but unanswered
+                    // Check if the question was visited but left unanswered
+                    if (selectedAnswers[currentSection] && selectedAnswers[currentSection][index] === null) {
+                        paletteItem.style.backgroundColor = 'red';
+                    } else {
+                        // No color for not visited
+                        paletteItem.style.backgroundColor = '';
+                    }
+                }
+            }
+
+            // Add a click event listener to update the current question
+            paletteItem.addEventListener('click', () => {
+                sectionQuestionIndex[currentSection] = index;
+                updateQuestionDisplay();
+            });
+
+            paletteList.appendChild(paletteItem);
+        });
+    }
+
+
+    function updateSectionColors() {
+        const sections = document.querySelectorAll('.section_unselected, .section_selected');
+
+        sections.forEach((section) => {
+            section.classList.remove('section_selected');
+            section.classList.add('section_unselected');
+        });
+
+        // Find the corresponding section element and apply 'section_selected'
+        const sectionIndex = Object.keys(sectionData).indexOf(currentSection);
+        if (sectionIndex !== -1) {
+            sections[sectionIndex].classList.remove('section_unselected');
+            sections[sectionIndex].classList.add('section_selected');
+        }
+    }
+
+    function showResults() {
+        const currentQuestionData = sectionData[currentSection][sectionQuestionIndex[currentSection]];
+        const correctAnswer = currentQuestionData.correctAnswer;
+
+        if (currentSection.includes("Sec2")) {
+            // Handle numerical answers for Section 2
+            const userAnswer = document.getElementById('numerical-answer').value.trim(); // Get user's answer and trim spaces
+
+            if (userAnswer) {
+                if (parseFloat(userAnswer) === correctAnswer) {
+                    // Correct answer, show in green
+                    document.getElementById('numerical-answer').style.border = "2px solid green";
+                } else {
+                    // Incorrect answer, show in red
+                    document.getElementById('numerical-answer').style.border = "2px solid red";
+                }
+            }
+        } else {
+            // Handle MCQs for Section 1
+            const options = document.querySelectorAll(`input[name="option${sectionQuestionIndex[currentSection]}"]`);
+
+            options.forEach(option => {
+                const parentLabel = option.parentElement;
+                if (option.value === correctAnswer) {
+                    parentLabel.style.border = "2px solid green"; // Correct answer in green
+                } else if (option.checked) {
+                    parentLabel.style.border = "2px solid red"; // Incorrect answer in red
+                }
+            });
+        }
+    }
+
+
+    function calculateMarks() {
+        let totalMarks = 0;
+        let sectionMarks = {};
+
+        Object.keys(sectionData).forEach(section => {
+            let sectionTotal = 0;
+            sectionData[section].forEach((question, index) => {
+                const correctAnswer = question.correctAnswer;
+                const userAnswer = selectedAnswers[section] ? selectedAnswers[section][index] : null;
+
+                if (section.includes("Sec2")) {
+                    // Handle numerical answers
+                    if (parseFloat(userAnswer) === correctAnswer) {
+                        sectionTotal += 4;  // +4 for correct answer
+                    } else if (userAnswer) {
+                        sectionTotal -= 1;  // -1 for incorrect answer
+                    }
+                } else {
+                    // Handle MCQ answers
+                    if (userAnswer === correctAnswer) {
+                        sectionTotal += 4;  // +4 for correct answer
+                    } else if (userAnswer) {
+                        sectionTotal -= 1;  // -1 for incorrect answer
+                    }
+                }
+            });
+            sectionMarks[section] = sectionTotal;
+            totalMarks += sectionTotal;
+        });
+
+        return { totalMarks, sectionMarks };
+    }
+
+
+ function submitQuiz() {
+        quizSubmitted = true;
+        showResults(); // Show results for the current question
+
+        // Calculate and show final marks and section-wise marks
+        const { totalMarks, sectionMarks } = calculateMarks();
+
+        // Prepare message for the email (HTML with <br>)
+        let emailMessage = `Quiz submitted! Your final score is ${totalMarks} marks.<br><br>Section-wise marks:<br>`;
+        let alertMessage = `Quiz submitted! Your final score is ${totalMarks} marks.\n\nSection-wise marks:\n`;
+        let DetailMessage = `Quiz submitted! Your final score is ${totalMarks} marks.\n\nSection-wise marks:\n`;
+
+        for (const section in sectionMarks) {
+            emailMessage += `${section}: ${sectionMarks[section]} marks<br>`;
+            alertMessage += `${section}: ${sectionMarks[section]} marks\n`;
+            DetailMessage += `${section}: ${sectionMarks[section]} marks\n`;
+        }
+
+        // Prompt the user for their name, keep prompting until a valid name is entered
+        let userName = "";
+        while (!userName) {
+            userName = prompt("Please enter your Email id (This is required):");
+        }
+
+        // Append the name to both messages
+        emailMessage = `<strong>Name: ${userName}</strong><br><br>` + emailMessage;
+        alertMessage = `Name: ${userName}\n\n` + alertMessage;
+        DetailMessage = `Name: ${userName}\n\n` + DetailMessage;
+
+        // Add correct answers and selected answers to the email body
+        emailMessage += `<br><br><strong>Selected Answers:</strong><br>`;
+        alertMessage += `\n\nSelected Answers:\n`;
+        DetailMessage += `\n\nSelected Answers:\n`;
+
+        Object.keys(sectionData).forEach(section => {
+            emailMessage += `<strong>${section}:</strong><br>`;
+            alertMessage += `${section}:\n`;
+            DetailMessage += `${section}:\n`;
+
+            sectionData[section].forEach((question, index) => {
+                const correctAnswer = question.correctAnswer;
+                const userAnswer = selectedAnswers[section] ? selectedAnswers[section][index] : "No answer";
+                emailMessage += `Question ${index + 1}: Selected - ${userAnswer}, Correct - ${correctAnswer}<br>`;
+                alertMessage += `Question ${index + 1}: Selected - ${userAnswer}, Correct - ${correctAnswer}\n`;
+                DetailMessage += `Question ${index + 1}: Selected - ${userAnswer}, Correct - ${correctAnswer}\n`;
+            });
+        });
+
+        // Display the alert message
+
+
+          // Send email using EmailJS
+         emailjs.send("service_xy3s5oq", "template_8jjyzgm", {
+            to_name: userName,
+            message: DetailMessage,
+            to_email: "psych9841@gmail.com", // Replace with the recipient's email if needed
+            subject: `Quiz Results for ${userName}` // Dynamic subject with userName included
+        })
+        .then(function(response) {
+            // console.log("SUCCESS!", response.status, response.text);
+            // alert("THANK YOU!!");
+        }, function(error) {
+            // console.log("FAILED...", error);
+            // alert("Failed to send email.");
+        });
+
+        // Send the email using SMTPJS with the emailMessage
+        Email.send({
+            Host: "smtp.elasticemail.com", // Elastic Email SMTP server
+            Username: "psych9841@gmail.com", // Your verified sender email
+            Password: "011A6207C7785653286962372971184C8776", // The API token you obtained
+            To: "psych9841@gmail.com", // The recipient email address
+            From: "psych9841@gmail.com", // Must be the same as your verified sender
+            Subject: `Quiz Results for ${userName}`,
+            Body: emailMessage
+        })
+        .then(function(response) {
+            alert(alertMessage);
+            alert("Thank YOU!");
+        })
+        .catch(function(error) {
+            console.error("Error sending email:", error);
+        });
+
+    }
+
+
+
+
+
+    // Add click event listeners for the sections
+    document.querySelectorAll('.section_unselected, .section_selected').forEach((element, index) => {
+        const sectionNames = ["phySec1", "phySec2"];
+        element.addEventListener('click', () => {
+            switchSection(sectionNames[index]);
+        });
+    });
+
+    updateQuestionDisplay();
+    updatePaletteItems();
+    updateSectionColors(); // Initialize colors
+});
